@@ -31,3 +31,9 @@ export const requestReviews = async movieId => {
   const { data } = await instance.get(`/movie/${movieId}/reviews`);
   return data;
 };
+
+// //my key
+// https://www.themoviedb.org/settings/ap
+// APi
+
+// d6912ed19a9e539b957f57904085cefa    KEY
